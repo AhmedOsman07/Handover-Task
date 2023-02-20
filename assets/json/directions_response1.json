@@ -1,0 +1,1100 @@
+{
+  "pickup": {
+    "routes": [
+      {
+        "legs": [
+          {
+            "distanceMeters": 17080,
+            "duration": "1393s",
+            "staticDuration": "1393s",
+            "polyline": {
+              "encodedPolyline": "wlbvDqv|~DpBAbABf@Pd@NZR@@FDFBf@lAVn@Vl@d@nAhAvChAlClAvCp@`Bh@nAtBbFr@bBZt@jCbH\\x@DJPb@~@~BrB~ENVJTTn@^fAb@z@HNLXN`@\\`AvBnFhAnCfAlCPb@`@zAPl@F^BrA?l@BrF@bFA~F?T@jACx@I`BA~A?dCBZBp@?n@@xAAdAAf@KlAIl@ANGTMn@Uv@GVc@lAeBxEGJo@rAq@nA_AzBUv@Qd@c@fAM`@IRm@|As@hB{@pB{BrFi@tAi@lAIRQf@s@fBm@|AmA~C{@xB_@~@{AdDiAjC_@v@UZGDML]VYNYN{@\\e@Lm@n@SPOTIRITIj@ARIpAJdI?lDAnEBnCD^?l@GrBMfAM~@E\\Kl@w@nC_BdDY`@W`@s@v@mAtAo@t@ABu@v@mAtAABcBlBA?i@n@QT_@b@m@p@u@dAgAzAiAvBc@x@aAjC_@~A_@zAQ~@WdBO~AAFIv@KjAOrAGh@AZGlAEf@AZG|AAdBAvD?F?b@AX?|@?b@?D?lBAzA?B?`D?j@?@?p@?\\?B?@?hE?@Ax@AdF?@?nA?BAjC?~@?@?rAAxB?@?NAh@@`@?fA?@@N?rC?@?N?lB?zAAxA@V?@At@BbA?`@EhI?T?nC?p@?JBnD?hC?X?ZMjGUvCWzBYdAADMp@Qt@GPqArDUh@_A|AgAbBq@x@uCnD_CrCoDlEc@h@gD`E{BpCeBxBq@z@[^iArAs@z@m@r@iDpEq@hA{@fBQZSh@Wj@[v@W|@aA~DGTUjAa@bC_@dCIr@IrBMd@CV@b@Ad@?b@EZOb@M\\QPYPaA`@_Ab@[TW^ITGR?BGd@?@C|@G\\O^MTQPQP{Cx@}@TaBb@k@Pm@NmDb@]BmBLe@DyB\\_C`@sAXaEz@kFxAeA`@KDy@`@i@Xe@Xw@j@_Av@m@h@IHmCrCaBlBaAlAo@|@c@v@q@rAq@~A_AfCq@xB]xA]fAOh@WbA[fAEJe@xBoAbEm@nAw@lAaArAq@r@gAbAu@l@m@`@k@\\u@d@mBfAwA|@cAp@w@l@cAx@g@d@A@MNkHtGk@f@SCE?IAECECKI}@qAc@s@c@q@q@eAo@y@?A@A?A?A@A?A?A?A?AAA?A?AAA?A?AA??AA??AA??AAAA?A??AA?A?A?A?C?C?CBC@CDaAJoFt@mAPuAPeCZi@HcANC@w@Ls@Lm@H_AJmAPiBVmBV}AV{Dj@{@L{BZwDj@_ALa@FqARiBTuARmBVM@gAJSBuFf@UBuCXOGKAK?UBoAFkAHcAJA?wANc@DkBPc@FG?YDA?s@Am@@QCJPDJBHA^EVPOd@Q`AQB?LAJApACp@AFjA?DBb@?DB`@?@?BJzBBb@Bd@cIr@q@DyAL{@JYDUDKmA"
+            },
+            "startLocation": {
+              "latLng": {
+                "latitude": 30.000275400000003,
+                "longitude": 31.445691
+              }
+            },
+            "endLocation": {
+              "latLng": {
+                "latitude": 30.059682499999997,
+                "longitude": 31.324370499999997
+              }
+            },
+            "steps": [
+              {
+                "distanceMeters": 176,
+                "staticDuration": "22s",
+                "polyline": {
+                  "encodedPolyline": "wlbvDqv|~DpBAbABf@Pd@NZR@@FDFB"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 30.000275400000003,
+                    "longitude": 31.445691
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 29.9987541,
+                    "longitude": 31.445348099999997
+                  }
+                }
+              },
+              {
+                "distanceMeters": 1120,
+                "staticDuration": "82s",
+                "polyline": {
+                  "encodedPolyline": "ecbvDmt|~Df@lAVn@Vl@d@nAhAvChAlClAvCp@`Bh@nAtBbFr@bBZt@jCbH\\x@DJPb@~@~BrB~E"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 29.9987541,
+                    "longitude": 31.445348099999997
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 29.993665999999997,
+                    "longitude": 31.435308999999997
+                  }
+                },
+                "navigationInstruction": {
+                  "maneuver": "TURN_SLIGHT_RIGHT",
+                  "instructions": "إلى اليمين قليلاً إلى \u202aGamal Abdel Nasser\u202c\u200f"
+                }
+              },
+              {
+                "distanceMeters": 53,
+                "staticDuration": "5s",
+                "polyline": {
+                  "encodedPolyline": "mcavDuuz~DNVJTTn@"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 29.993665999999997,
+                    "longitude": 31.435308999999997
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 29.993416999999997,
+                    "longitude": 31.434844299999998
+                  }
+                }
+              },
+              {
+                "distanceMeters": 74,
+                "staticDuration": "7s",
+                "polyline": {
+                  "encodedPolyline": "{aavDwrz~D^fAb@z@"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 29.993416999999997,
+                    "longitude": 31.434844299999998
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 29.993083199999997,
+                    "longitude": 31.434182799999995
+                  }
+                },
+                "navigationInstruction": {
+                  "maneuver": "STRAIGHT",
+                  "instructions": "المتابعة مباشرة للاستمرار في \u202a80axis\u202c\u200f"
+                }
+              },
+              {
+                "distanceMeters": 373,
+                "staticDuration": "36s",
+                "polyline": {
+                  "encodedPolyline": "w_avDsnz~DHNLXN`@\\`AvBnFhAnCfAlC"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 29.993083199999997,
+                    "longitude": 31.434182799999995
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 29.991403299999998,
+                    "longitude": 31.430837500000003
+                  }
+                }
+              },
+              {
+                "distanceMeters": 2602,
+                "staticDuration": "266s",
+                "polyline": {
+                  "encodedPolyline": "gu`vDwyy~DPb@`@zAPl@F^BrA?l@BrF@bFA~F?T@jACx@I`BA~A?dCBZBp@?n@@xAAdAAf@KlAIl@ANGTMn@Uv@GVc@lAeBxEGJo@rAq@nA_AzBUv@Qd@c@fAM`@IRm@|As@hB{@pB{BrFi@tAi@lAIRQf@s@fBm@|AmA~C{@xB_@~@{AdDiAjC_@v@UZGDML]VYNYN{@\\e@L"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 29.991403299999998,
+                    "longitude": 31.430837500000003
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 29.9988484,
+                    "longitude": 31.406759799999996
+                  }
+                },
+                "navigationInstruction": {
+                  "maneuver": "ROUNDABOUT_RIGHT",
+                  "instructions": "عند الدوّار، عليك الاتجاه نحو المخرج الأول  والاستمرار في جمال عبد الناصر"
+                }
+              },
+              {
+                "distanceMeters": 107,
+                "staticDuration": "8s",
+                "polyline": {
+                  "encodedPolyline": "ycbvDgcu~Dm@n@SPOTIRITIj@"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 29.9988484,
+                    "longitude": 31.406759799999996
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 29.999412799999998,
+                    "longitude": 31.405890199999998
+                  }
+                }
+              },
+              {
+                "distanceMeters": 460,
+                "staticDuration": "34s",
+                "polyline": {
+                  "encodedPolyline": "igbvDy}t~DARIpAJdI?lDAnEBnC"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 29.999412799999998,
+                    "longitude": 31.405890199999998
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 29.999401600000002,
+                    "longitude": 31.401122599999997
+                  }
+                }
+              },
+              {
+                "distanceMeters": 162,
+                "staticDuration": "11s",
+                "polyline": {
+                  "encodedPolyline": "ggbvD_`t~DD^?l@GrBMfAM~@"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 29.999401600000002,
+                    "longitude": 31.401122599999997
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 29.9995535,
+                    "longitude": 31.399468499999998
+                  }
+                },
+                "navigationInstruction": {
+                  "maneuver": "TURN_LEFT",
+                  "instructions": "تابع جهة اليسار"
+                }
+              },
+              {
+                "distanceMeters": 784,
+                "staticDuration": "40s",
+                "polyline": {
+                  "encodedPolyline": "ehbvDuus~DE\\Kl@w@nC_BdDY`@W`@s@v@mAtAo@t@ABu@v@mAtAABcBlBA?i@n@QT_@b@m@p@u@dAgAzA"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 29.9995535,
+                    "longitude": 31.399468499999998
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 30.0040542,
+                    "longitude": 31.3933303
+                  }
+                },
+                "navigationInstruction": {
+                  "maneuver": "TURN_LEFT",
+                  "instructions": "تابع جهة اليسار"
+                }
+              },
+              {
+                "distanceMeters": 4733,
+                "staticDuration": "208s",
+                "polyline": {
+                  "encodedPolyline": "idcvDior~DiAvBc@x@aAjC_@~A_@zAQ~@WdBO~AAFIv@KjAOrAGh@AZGlAEf@AZG|AAdBAvD?F?b@AX?|@?b@?D?lBAzA?B?`D?j@?@?p@?\\?B?@?hE?@Ax@AdF?@?nA?BAjC?~@?@?rAAxB?@?NAh@@`@?fA?@@N?rC?@?N?lB?zAAxA@V?@At@BbA?`@EhI?T?nC?p@?JBnD?hC?X?ZMjGUvCWzBYdAADMp@Qt@GPqArDUh@_A|AgAbBq@x@uCnD_CrCoDlEc@h@gD`E{BpCeBxBq@z@[^iArAs@z@m@r@iDpEq@hA{@fBQZSh@Wj@[v@W|@aA~DGTUjAa@bC_@dCIr@IrB"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 30.0040542,
+                    "longitude": 31.3933303
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 30.016623600000003,
+                    "longitude": 31.348909199999998
+                  }
+                }
+              },
+              {
+                "distanceMeters": 430,
+                "staticDuration": "32s",
+                "polyline": {
+                  "encodedPolyline": "{revDuyi~DMd@CV@b@Ad@?b@EZOb@M\\QPYPaA`@_Ab@[TW^ITGR?BGd@?@C|@G\\O^MTQPQP"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 30.016623600000003,
+                    "longitude": 31.348909199999998
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 30.018542999999998,
+                    "longitude": 31.345437200000003
+                  }
+                },
+                "navigationInstruction": {
+                  "maneuver": "TURN_SLIGHT_RIGHT",
+                  "instructions": "الاتجاه نحو  اليمين قليلاً"
+                }
+              },
+              {
+                "distanceMeters": 737,
+                "staticDuration": "50s",
+                "polyline": {
+                  "encodedPolyline": "{~evD_di~D{Cx@}@TaBb@k@Pm@NmDb@]BmBLe@DyB\\_C`@sAXaEz@"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 30.018542999999998,
+                    "longitude": 31.345437200000003
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 30.0249694,
+                    "longitude": 31.343643
+                  }
+                },
+                "navigationInstruction": {
+                  "maneuver": "TURN_SLIGHT_RIGHT",
+                  "instructions": "إلى اليمين قليلاً إلى محور الشهيد"
+                }
+              },
+              {
+                "distanceMeters": 1302,
+                "staticDuration": "69s",
+                "polyline": {
+                  "encodedPolyline": "aggvDwxh~DkFxAeA`@KDy@`@i@Xe@Xw@j@_Av@m@h@IHmCrCaBlBaAlAo@|@c@v@q@rAq@~A_AfCq@xB]xA]fAOh@WbA[fAEJe@xBoAbE"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 30.0249694,
+                    "longitude": 31.343643
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 30.032406899999998,
+                    "longitude": 31.333969099999997
+                  }
+                }
+              },
+              {
+                "distanceMeters": 914,
+                "staticDuration": "53s",
+                "polyline": {
+                  "encodedPolyline": "quhvDi|f~Dm@nAw@lAaArAq@r@gAbAu@l@m@`@k@\\u@d@mBfAwA|@cAp@w@l@cAx@g@d@A@MNkHtGk@f@"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 30.032406899999998,
+                    "longitude": 31.333969099999997
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 30.0387995,
+                    "longitude": 31.3281115
+                  }
+                }
+              },
+              {
+                "distanceMeters": 234,
+                "staticDuration": "46s",
+                "polyline": {
+                  "encodedPolyline": "o}ivDuwe~DSCE?IAECECKI}@qAc@s@c@q@q@eAo@y@"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 30.0387995,
+                    "longitude": 31.3281115
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 30.040259000000002,
+                    "longitude": 31.3297921
+                  }
+                },
+                "navigationInstruction": {
+                  "maneuver": "TURN_RIGHT",
+                  "instructions": "الاتجاه يمينًا إلى جمال سليم"
+                }
+              },
+              {
+                "distanceMeters": 1439,
+                "staticDuration": "217s",
+                "polyline": {
+                  "encodedPolyline": "sfjvDebf~D?A@A?A?A@A?A?A?A?AAA?A?AAA?A?AA??AA??AA??AAAA?A??AA?A?A?A?C?C?CBC@CDaAJoFt@mAPuAPeCZi@HcANC@w@Ls@Lm@H_AJmAPiBVmBV}AV{Dj@{@L{BZwDj@_ALa@FqARiBTuARmBVM@gAJSB"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 30.040259000000002,
+                    "longitude": 31.3297921
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 30.052801000000002,
+                    "longitude": 31.327160900000003
+                  }
+                },
+                "navigationInstruction": {
+                  "maneuver": "ROUNDABOUT_RIGHT",
+                  "instructions": "عند الدوّار، عليك الاتجاه نحو المخرج الثاني  إلى الدكتور عبد الله العربي"
+                }
+              },
+              {
+                "distanceMeters": 235,
+                "staticDuration": "33s",
+                "polyline": {
+                  "encodedPolyline": "_ulvDwqe~DuFf@UBuCX"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 30.052801000000002,
+                    "longitude": 31.327160900000003
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 30.0548929,
+                    "longitude": 31.326809500000003
+                  }
+                }
+              },
+              {
+                "distanceMeters": 397,
+                "staticDuration": "51s",
+                "polyline": {
+                  "encodedPolyline": "abmvDqoe~DOGKAK?UBoAFkAHcAJA?wANc@DkBPc@FG?YDA?s@Am@@QC"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 30.0548929,
+                    "longitude": 31.326809500000003
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 30.0584273,
+                    "longitude": 31.326441499999998
+                  }
+                },
+                "navigationInstruction": {
+                  "maneuver": "TURN_SLIGHT_RIGHT",
+                  "instructions": "الاتجاه نحو  اليمين للاستمرار في الطيران"
+                }
+              },
+              {
+                "distanceMeters": 50,
+                "staticDuration": "9s",
+                "polyline": {
+                  "encodedPolyline": "exmvDgme~DJPDJBHA^EV"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 30.0584273,
+                    "longitude": 31.326441499999998
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 30.058358499999997,
+                    "longitude": 31.325960499999997
+                  }
+                },
+                "navigationInstruction": {
+                  "maneuver": "TURN_LEFT",
+                  "instructions": "الاتجاه نحو  اليسار إلى الطيران"
+                }
+              },
+              {
+                "distanceMeters": 163,
+                "staticDuration": "27s",
+                "polyline": {
+                  "encodedPolyline": "wwmvDgje~DPOd@Q`AQB?LAJApACp@A"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 30.058358499999997,
+                    "longitude": 31.325960499999997
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 30.056942199999998,
+                    "longitude": 31.3262712
+                  }
+                },
+                "navigationInstruction": {
+                  "maneuver": "TURN_SHARP_LEFT",
+                  "instructions": "إلى أقصى اليسار إلى الطيران"
+                }
+              },
+              {
+                "distanceMeters": 176,
+                "staticDuration": "24s",
+                "polyline": {
+                  "encodedPolyline": "{nmvDele~DFjA?DBb@?DB`@?@?BJzBBb@Bd@"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 30.056942199999998,
+                    "longitude": 31.3262712
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 30.0567615,
+                    "longitude": 31.3244562
+                  }
+                },
+                "navigationInstruction": {
+                  "maneuver": "TURN_RIGHT",
+                  "instructions": "الاتجاه يمينًا إلى الدكتور عبد العزيز الشناوي"
+                }
+              },
+              {
+                "distanceMeters": 321,
+                "staticDuration": "49s",
+                "polyline": {
+                  "encodedPolyline": "wmmvD{`e~DcIr@q@DyAL{@JYDUD"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 30.0567615,
+                    "longitude": 31.3244562
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 30.0596211,
+                    "longitude": 31.323983
+                  }
+                },
+                "navigationInstruction": {
+                  "maneuver": "TURN_RIGHT",
+                  "instructions": "الاتجاه يمينًا إلى يوسف عباس"
+                }
+              },
+              {
+                "distanceMeters": 38,
+                "staticDuration": "14s",
+                "polyline": {
+                  "encodedPolyline": "s_nvD{}d~DKmA"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 30.0596211,
+                    "longitude": 31.323983
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 30.059682499999997,
+                    "longitude": 31.324370499999997
+                  }
+                },
+                "navigationInstruction": {
+                  "maneuver": "TURN_RIGHT",
+                  "instructions": "الاتجاه نحو  اليمين"
+                }
+              }
+            ]
+          }
+        ],
+        "distanceMeters": 17080,
+        "duration": "1393s",
+        "staticDuration": "1393s",
+        "polyline": {
+          "encodedPolyline": "wlbvDqv|~DpBAbABf@Pd@NZR@@FDFBf@lAVn@Vl@d@nAhAvChAlClAvCp@`Bh@nAtBbFr@bBZt@jCbH\\x@DJPb@~@~BrB~ENVJTTn@^fAb@z@HNLXN`@\\`AvBnFhAnCfAlCPb@`@zAPl@F^BrA?l@BrF@bFA~F?T@jACx@I`BA~A?dCBZBp@?n@@xAAdAAf@KlAIl@ANGTMn@Uv@GVc@lAeBxEGJo@rAq@nA_AzBUv@Qd@c@fAM`@IRm@|As@hB{@pB{BrFi@tAi@lAIRQf@s@fBm@|AmA~C{@xB_@~@{AdDiAjC_@v@UZGDML]VYNYN{@\\e@Lm@n@SPOTIRITIj@ARIpAJdI?lDAnEBnCD^?l@GrBMfAM~@E\\Kl@w@nC_BdDY`@W`@s@v@mAtAo@t@ABu@v@mAtAABcBlBA?i@n@QT_@b@m@p@u@dAgAzAiAvBc@x@aAjC_@~A_@zAQ~@WdBO~AAFIv@KjAOrAGh@AZGlAEf@AZG|AAdBAvD?F?b@AX?|@?b@?D?lBAzA?B?`D?j@?@?p@?\\?B?@?hE?@Ax@AdF?@?nA?BAjC?~@?@?rAAxB?@?NAh@@`@?fA?@@N?rC?@?N?lB?zAAxA@V?@At@BbA?`@EhI?T?nC?p@?JBnD?hC?X?ZMjGUvCWzBYdAADMp@Qt@GPqArDUh@_A|AgAbBq@x@uCnD_CrCoDlEc@h@gD`E{BpCeBxBq@z@[^iArAs@z@m@r@iDpEq@hA{@fBQZSh@Wj@[v@W|@aA~DGTUjAa@bC_@dCIr@IrBMd@CV@b@Ad@?b@EZOb@M\\QPYPaA`@_Ab@[TW^ITGR?BGd@?@C|@G\\O^MTQPQP{Cx@}@TaBb@k@Pm@NmDb@]BmBLe@DyB\\_C`@sAXaEz@kFxAeA`@KDy@`@i@Xe@Xw@j@_Av@m@h@IHmCrCaBlBaAlAo@|@c@v@q@rAq@~A_AfCq@xB]xA]fAOh@WbA[fAEJe@xBoAbEm@nAw@lAaArAq@r@gAbAu@l@m@`@k@\\u@d@mBfAwA|@cAp@w@l@cAx@g@d@A@MNkHtGk@f@SCE?IAECECKI}@qAc@s@c@q@q@eAo@y@?A@A?A?A@A?A?A?A?AAA?A?AAA?A?AA??AA??AA??AAAA?A??AA?A?A?A?C?C?CBC@CDaAJoFt@mAPuAPeCZi@HcANC@w@Ls@Lm@H_AJmAPiBVmBV}AV{Dj@{@L{BZwDj@_ALa@FqARiBTuARmBVM@gAJSBuFf@UBuCXOGKAK?UBoAFkAHcAJA?wANc@DkBPc@FG?YDA?s@Am@@QCJPDJBHA^EVPOd@Q`AQB?LAJApACp@AFjA?DBb@?DB`@?@?BJzBBb@Bd@cIr@q@DyAL{@JYDUDKmA"
+        },
+        "description": "طريق الجيش",
+        "viewport": {
+          "low": {
+            "latitude": 29.990959200000002,
+            "longitude": 31.323983
+          },
+          "high": {
+            "latitude": 30.059682499999997,
+            "longitude": 31.445696800000004
+          }
+        },
+        "routeLabels": [
+          "DEFAULT_ROUTE"
+        ]
+      }
+    ]
+  },
+  "delivery": {
+    "routes": [
+      {
+        "legs": [
+          {
+            "distanceMeters": 20116,
+            "duration": "1580s",
+            "staticDuration": "1580s",
+            "polyline": {
+              "encodedPolyline": "_`nvDi`e~DJlAkAP]Hg@NM{BGeAGkAOeCvE[b@CT?P@LDLFBBMUEMCQ?Q?QBQC@GBK@_@FkBRoD^s@FC?_@@s@Hg@Tq@D}ANODI@qBLw@DiAF_DZmCLC?g@ESB_AFC?C?]BA?C?[@kBLK?c@DUIMIIIIIEkA?EWgDk@cLAQC[A]_@sGO}CIcAOqDIaBAKOaAGoA?ACe@Ce@KmAM}BEg@?AIqAAc@CYAYASC{@M{BIoAA[IqACi@Cg@AQMeAOkCEmAIqAEg@?i@A_@?kAA_@Ce@Ei@KeBCg@?EQeDCi@KwBCS?OAA?KI}@AS?KACAa@?AC_@?ACc@?AGu@Eu@IoAGoAI}AG{AAOAOA[C]?MA[?a@AKCMGaEOiBIy@KgB]sBk@qCYkAy@gCs@}As@{Ay@uAwAsBcCiDAAyEgHmBaD{F}HkBmBIGm@e@QMAK?AACCCACCEGESOUK[M[KgBSo@GKUESCWA]AUAKC_@EWCMEKIUGMKOAC[W_@WWMUGWIYKCA[MOQIQGIIY?AK_@Mc@FeAHgBHoAh@_Lb@gIHqA@Kv@eODuATiFDm@FcBBcCDeBA}AEmAE{@SkCSuBEc@Ca@MyAI{@COIy@C[E[Ee@YwBS}BIy@McAQgBSyBMeBE{@Ek@A]AY?WCw@I}BEkDOeAEkBAg@AkAA_@C[CmAIsDOgGM{FKuDMmESiGKkFO}EO{FEaBCu@C{@K_FEoB]sMGcCOyEGeCEoB?q@XwALi@AiA?gE@m@HiFJ_DFuALaCNqBTeD`A_JfBcMN_Al@qD\\qBPeA|AyKF_@Hy@RiCL_C@oB@W?{AA{AAaAEgBSgEGiAEq@?QUyGM{CK_BMqDMwCGmA?e@QyF?]MsBE}@Eq@E}@GwAAKCi@KcCOgCIoCM{DMoECmAOmC]gF?IMuBWyBCEQmBQ_EM_DM_EG_A]kISiEO{BOqEQ_FG{AgAyKi@qGs@{KMoBEUGWEEEKKMEGImDOeHAWO_ECkCAs@@_CA}CCoBImCIqDG_CDw@?Y?i@?uAB[H[H[JWV_@TSb@U^Kd@EfQaAh@EXCNAh@Ih@Ib@IpAWl@Md@Kf@Mv@Sv@UjDcAlRwGj@Oh@Ix@Ex@CDFHFHHJDHDJBLBJ@B?B?D?BAB?B?BAB?BAB?BABABABABABABCBA@ABCBA@CBABC@CBC@C@C@CBC@C@C@C@C@C@E?C@C@E?C?E@C?C?E@C?E?C?E?CAE?C?CAE?CAE?CACACAEACACACACACACACCCACCCACCAACCACCAACCCACACAAACACACACAC?CAC?_BiBIIEEo@s@yCgDuEaFo@w@U[oCeDy@qAS]i@gAe@eA[{@EMIYQk@_@iAK_@EUE[@MBIDK@GHKJINGj@OjA]jA]VEZEZCZAV?f@?\\DTDLBZHhA`@^N^HTBL@RBN@X@TAn@CTCRCZGZK`@OXOd@[HGLINGXK@?B?B?B?B?B?BAB?@CDA@CBCBC@C@C@E@E@K?EAG?CHe@FUBIf@wAXaAdAeCd@aA|@_Bl@cAf@u@\\g@j@s@h@o@l@s@V[TWJI`Aq@@?@AB?@A@A@A@A@Ab@CNCP?FA\\?^At@@JHFHFL@N@P?PCBEFADAFCJAL?j@?v@ChC?Z?hA"
+            },
+            "startLocation": {
+              "latLng": {
+                "latitude": 30.059682499999997,
+                "longitude": 31.324370499999997
+              }
+            },
+            "endLocation": {
+              "latLng": {
+                "latitude": 30.065766099999998,
+                "longitude": 31.485611
+              }
+            },
+            "steps": [
+              {
+                "distanceMeters": 38,
+                "staticDuration": "14s",
+                "polyline": {
+                  "encodedPolyline": "_`nvDi`e~DJlA"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 30.059682499999997,
+                    "longitude": 31.324370499999997
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 30.0596211,
+                    "longitude": 31.323983
+                  }
+                }
+              },
+              {
+                "distanceMeters": 84,
+                "staticDuration": "35s",
+                "polyline": {
+                  "encodedPolyline": "s_nvD{}d~DkAP]Hg@N"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 30.0596211,
+                    "longitude": 31.323983
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 30.060350399999994,
+                    "longitude": 31.323764299999997
+                  }
+                },
+                "navigationInstruction": {
+                  "maneuver": "TURN_RIGHT",
+                  "instructions": "الاتجاه يمينًا إلى يوسف عباس"
+                }
+              },
+              {
+                "distanceMeters": 196,
+                "staticDuration": "48s",
+                "polyline": {
+                  "encodedPolyline": "ednvDo|d~DM{BGeAGkAOeC"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 30.060350399999994,
+                    "longitude": 31.323764299999997
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 30.0605755,
+                    "longitude": 31.3257796
+                  }
+                },
+                "navigationInstruction": {
+                  "maneuver": "TURN_RIGHT",
+                  "instructions": "الاتجاه يمينًا إلى شارع التأمين"
+                }
+              },
+              {
+                "distanceMeters": 182,
+                "staticDuration": "34s",
+                "polyline": {
+                  "encodedPolyline": "senvDcie~DvE[b@CT?P@LDLFBB"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 30.0605755,
+                    "longitude": 31.3257796
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 30.0589616,
+                    "longitude": 31.3258441
+                  }
+                },
+                "navigationInstruction": {
+                  "maneuver": "TURN_RIGHT",
+                  "instructions": "الاتجاه يمينًا إلى الطيران"
+                }
+              },
+              {
+                "distanceMeters": 55,
+                "staticDuration": "8s",
+                "polyline": {
+                  "encodedPolyline": "o{mvDoie~DMUEMCQ?Q?QBQ"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 30.0589616,
+                    "longitude": 31.3258441
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 30.0590609,
+                    "longitude": 31.3263799
+                  }
+                },
+                "navigationInstruction": {
+                  "maneuver": "TURN_SHARP_LEFT",
+                  "instructions": "الاتجاه نحو اليسار مباشرة إلى الطيران"
+                }
+              },
+              {
+                "distanceMeters": 932,
+                "staticDuration": "121s",
+                "polyline": {
+                  "encodedPolyline": "c|mvD{le~DC@GBK@_@FkBRoD^s@FC?_@@s@Hg@Tq@D}ANODI@qBLw@DiAF_DZmCLC?g@ESB_AFC?C?]BA?C?[@kBLK?c@DUIMIIIII"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 30.0590609,
+                    "longitude": 31.3263799
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 30.067298400000002,
+                    "longitude": 31.325367
+                  }
+                },
+                "navigationInstruction": {
+                  "maneuver": "TURN_LEFT",
+                  "instructions": "الاتجاه يسارًا إلى الطيران"
+                }
+              },
+              {
+                "distanceMeters": 3728,
+                "staticDuration": "334s",
+                "polyline": {
+                  "encodedPolyline": "soovDqfe~DEkA?EWgDk@cLAQC[A]_@sGO}CIcAOqDIaBAKOaAGoA?ACe@Ce@KmAM}BEg@?AIqAAc@CYAYASC{@M{BIoAA[IqACi@Cg@AQMeAOkCEmAIqAEg@?i@A_@?kAA_@Ce@Ei@KeBCg@?EQeDCi@KwBCS?OAA?KI}@AS?KACAa@?AC_@?ACc@?AGu@Eu@IoAGoAI}AG{AAOAOA[C]?MA[?a@AKCMGaEOiBIy@KgB]sBk@qCYkAy@gCs@}As@{Ay@uAwAsBcCiDAAyEgHmBaD{F}HkBmBIGm@e@QM"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 30.067298400000002,
+                    "longitude": 31.325367
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 30.076626100000002,
+                    "longitude": 31.361179099999998
+                  }
+                },
+                "navigationInstruction": {
+                  "maneuver": "TURN_RIGHT",
+                  "instructions": "الاتجاه يمينًا إلى طريق النصر (إشارات لـ ط. السويس/مطار القاهرة)"
+                }
+              },
+              {
+                "distanceMeters": 505,
+                "staticDuration": "45s",
+                "polyline": {
+                  "encodedPolyline": "}iqvDkfl~DAK?AACCCACCEGESOUK[M[KgBSo@GKUESCWA]AUAKC_@EWCMEKIUGMKOAC[W_@WWMUGWIYKCA[MOQIQGIIY?AK_@Mc@"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 30.076626100000002,
+                    "longitude": 31.361179099999998
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 30.079677399999998,
+                    "longitude": 31.364371199999997
+                  }
+                },
+                "navigationInstruction": {
+                  "maneuver": "RAMP_RIGHT",
+                  "instructions": "الاتجاه نحو منحدر ط. السويس  إلى القاهرة الجديدة"
+                }
+              },
+              {
+                "distanceMeters": 4155,
+                "staticDuration": "203s",
+                "polyline": {
+                  "encodedPolyline": "_}qvDizl~DFeAHgBHoAh@_Lb@gIHqA@Kv@eODuATiFDm@FcBBcCDeBA}AEmAE{@SkCSuBEc@Ca@MyAI{@COIy@C[E[Ee@YwBS}BIy@McAQgBSyBMeBE{@Ek@A]AY?WCw@I}BEkDOeAEkBAg@AkAA_@C[CmAIsDOgGM{FKuDMmESiGKkFO}EO{FEaBCu@C{@K_FEoB]sMGcCOyEGeCEoB?q@"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 30.079677399999998,
+                    "longitude": 31.364371199999997
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 30.0812606,
+                    "longitude": 31.4072703
+                  }
+                },
+                "navigationInstruction": {
+                  "maneuver": "MERGE",
+                  "instructions": "الدخول في الثورة/طريق السويس\nالمتابعة في المسار 50M"
+                }
+              },
+              {
+                "distanceMeters": 2255,
+                "staticDuration": "107s",
+                "polyline": {
+                  "encodedPolyline": "{frvDmfu~DXwALi@AiA?gE@m@HiFJ_DFuALaCNqBTeD`A_JfBcMN_Al@qD\\qBPeA|AyKF_@Hy@RiCL_C@oB@W?{AA{AAaAEgBSgEGiAEq@?QUyGM{C"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 30.0812606,
+                    "longitude": 31.4072703
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 30.078897200000004,
+                    "longitude": 31.430301
+                  }
+                },
+                "navigationInstruction": {
+                  "maneuver": "RAMP_RIGHT",
+                  "instructions": "الاتجاه نحو المخرج"
+                }
+              },
+              {
+                "distanceMeters": 580,
+                "staticDuration": "28s",
+                "polyline": {
+                  "encodedPolyline": "cxqvDkvy~DK_BMqDMwCGmA?e@QyF?]MsBE}@Eq@E}@GwA"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 30.078897200000004,
+                    "longitude": 31.430301
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 30.0794278,
+                    "longitude": 31.4362979
+                  }
+                },
+                "navigationInstruction": {
+                  "maneuver": "TURN_LEFT",
+                  "instructions": "تابع جهة اليسار"
+                }
+              },
+              {
+                "distanceMeters": 816,
+                "staticDuration": "40s",
+                "polyline": {
+                  "encodedPolyline": "m{qvD{{z~DAKCi@KcCOgCIoCM{DMoECmAOmC]gF?IMuBWyBCEQmB"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 30.0794278,
+                    "longitude": 31.4362979
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 30.080344699999994,
+                    "longitude": 31.4446973
+                  }
+                },
+                "navigationInstruction": {
+                  "maneuver": "FORK_LEFT",
+                  "instructions": "تابع جهة اليسار في المفترق"
+                }
+              },
+              {
+                "distanceMeters": 553,
+                "staticDuration": "27s",
+                "polyline": {
+                  "encodedPolyline": "carvDkp|~DQ_EM_DM_EG_A]kISiE"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 30.080344699999994,
+                    "longitude": 31.4446973
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 30.0808575,
+                    "longitude": 31.4504119
+                  }
+                },
+                "navigationInstruction": {
+                  "maneuver": "TURN_RIGHT",
+                  "instructions": "تابع جهة اليمين"
+                }
+              },
+              {
+                "distanceMeters": 1783,
+                "staticDuration": "88s",
+                "polyline": {
+                  "encodedPolyline": "kdrvDat}~DO{BOqEQ_FG{AgAyKi@qGs@{KMoBEUGWEEEKKMEGImDOeHAWO_ECkCAs@@_CA}CCoBImCIqDG_C"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 30.0808575,
+                    "longitude": 31.4504119
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 30.082681599999997,
+                    "longitude": 31.4687383
+                  }
+                },
+                "navigationInstruction": {
+                  "maneuver": "STRAIGHT",
+                  "instructions": "المتابعة في خط مستقيم"
+                }
+              },
+              {
+                "distanceMeters": 1468,
+                "staticDuration": "93s",
+                "polyline": {
+                  "encodedPolyline": "worvDsfa_EDw@?Y?i@?uAB[H[H[JWV_@TSb@U^Kd@EfQaAh@EXCNAh@Ih@Ib@IpAWl@Md@Kf@Mv@Sv@UjDcAlRwGj@Oh@Ix@Ex@C"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 30.082681599999997,
+                    "longitude": 31.4687383
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 30.071199999999997,
+                    "longitude": 31.4737793
+                  }
+                },
+                "navigationInstruction": {
+                  "maneuver": "TURN_SLIGHT_RIGHT",
+                  "instructions": "إلى اليمين قليلاً إلى محمد نجيب (إشارات لـ القاهرة الجديدة/I الرحاب)"
+                }
+              },
+              {
+                "distanceMeters": 1140,
+                "staticDuration": "112s",
+                "polyline": {
+                  "encodedPolyline": "_hpvDcfb_EDFHFHHJDHDJBLBJ@B?B?D?BAB?B?BAB?BAB?BABABABABABABCBA@ABCBA@CBABC@CBC@C@C@CBC@C@C@C@C@C@E?C@C@E?C?E@C?C?E@C?E?C?E?CAE?C?CAE?CAE?CACACAEACACACACACACACCCACCCACCAACCACCAACCCACACAAACACACACAC?CAC?_BiBIIEEo@s@yCgDuEaFo@w@U[oCeDy@qAS]i@gAe@eA[{@EMIYQk@_@iAK_@EUE["
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 30.071199999999997,
+                    "longitude": 31.4737793
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 30.075710799999996,
+                    "longitude": 31.4818145
+                  }
+                },
+                "navigationInstruction": {
+                  "maneuver": "ROUNDABOUT_RIGHT",
+                  "instructions": "عند ميدان أحمد عرابي، عليك الاتجاه نحو المخرج  الثالث   باتجاه يوسف السباعي"
+                }
+              },
+              {
+                "distanceMeters": 648,
+                "staticDuration": "102s",
+                "polyline": {
+                  "encodedPolyline": "edqvDixc_E@MBIDK@GHKJINGj@OjA]jA]VEZEZCZAV?f@?\\DTDLBZHhA`@^N^HTBL@RBN@X@TAn@CTCRCZGZK`@OXOd@[HGLINGXK"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 30.075710799999996,
+                    "longitude": 31.4818145
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 30.070304999999998,
+                    "longitude": 31.4828094
+                  }
+                },
+                "navigationInstruction": {
+                  "maneuver": "TURN_SLIGHT_RIGHT",
+                  "instructions": "إلى اليمين قليلاً إلى عثمان بن عفان\nطريق مقيدة الاستخدام"
+                }
+              },
+              {
+                "distanceMeters": 638,
+                "staticDuration": "76s",
+                "polyline": {
+                  "encodedPolyline": "kbpvDq~c_E@?B?B?B?B?B?BAB?@CDA@CBCBC@C@C@E@E@K?EAG?CHe@FUBIf@wAXaAdAeCd@aA|@_Bl@cAf@u@\\g@j@s@h@o@l@s@V[TWJI`Aq@"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 30.070304999999998,
+                    "longitude": 31.4828094
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 30.066872999999994,
+                    "longitude": 31.4878884
+                  }
+                },
+                "navigationInstruction": {
+                  "maneuver": "ROUNDABOUT_RIGHT",
+                  "instructions": "عند الدوّار، عليك الاتجاه نحو المخرج الثاني  والاستمرار في عثمان بن عفان\nطريق مقيدة الاستخدام"
+                }
+              },
+              {
+                "distanceMeters": 121,
+                "staticDuration": "17s",
+                "polyline": {
+                  "encodedPolyline": "}lovDi~d_E@?@AB?@A@A@A@A@Ab@CNCP?FA\\?^At@@"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 30.066872999999994,
+                    "longitude": 31.4878884
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 30.0658055,
+                    "longitude": 31.4880039
+                  }
+                },
+                "navigationInstruction": {
+                  "maneuver": "ROUNDABOUT_RIGHT",
+                  "instructions": "عند الدوّار، عليك الاتجاه نحو المخرج الأول \nطريق مقيدة الاستخدام"
+                }
+              },
+              {
+                "distanceMeters": 47,
+                "staticDuration": "7s",
+                "polyline": {
+                  "encodedPolyline": "ifovD__e_EJHFHFL@N@P?P"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 30.0658055,
+                    "longitude": 31.4880039
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 30.065648999999997,
+                    "longitude": 31.487573400000002
+                  }
+                },
+                "navigationInstruction": {
+                  "maneuver": "TURN_RIGHT",
+                  "instructions": "الاتجاه يمينًا إلى عمر بن الخطاب\nطريق مقيدة الاستخدام"
+                }
+              },
+              {
+                "distanceMeters": 192,
+                "staticDuration": "41s",
+                "polyline": {
+                  "encodedPolyline": "ieovDi|d_ECBEFADAFCJAL?j@?v@ChC?Z?hA"
+                },
+                "startLocation": {
+                  "latLng": {
+                    "latitude": 30.065648999999997,
+                    "longitude": 31.487573400000002
+                  }
+                },
+                "endLocation": {
+                  "latLng": {
+                    "latitude": 30.065766099999998,
+                    "longitude": 31.485611
+                  }
+                },
+                "navigationInstruction": {
+                  "maneuver": "TURN_RIGHT",
+                  "instructions": "الاتجاه نحو  اليمين\nطريق مقيدة الاستخدام\nستكون الوجهة إلى يمين الطريق"
+                }
+              }
+            ]
+          }
+        ],
+        "distanceMeters": 20116,
+        "duration": "1582s",
+        "staticDuration": "1582s",
+        "polyline": {
+          "encodedPolyline": "_`nvDi`e~DJlAkAP]Hg@NM{BGeAGkAOeCvE[b@CT?P@LDLFBBMUEMCQ?Q?QBQC@GBK@_@FkBRoD^s@FC?_@@s@Hg@Tq@D}ANODI@qBLw@DiAF_DZmCLC?g@ESB_AFC?C?]BA?C?[@kBLK?c@DUIMIIIIIEkA?EWgDk@cLAQC[A]_@sGO}CIcAOqDIaBAKOaAGoA?ACe@Ce@KmAM}BEg@?AIqAAc@CYAYASC{@M{BIoAA[IqACi@Cg@AQMeAOkCEmAIqAEg@?i@A_@?kAA_@Ce@Ei@KeBCg@?EQeDCi@KwBCS?OAA?KI}@AS?KACAa@?AC_@?ACc@?AGu@Eu@IoAGoAI}AG{AAOAOA[C]?MA[?a@AKCMGaEOiBIy@KgB]sBk@qCYkAy@gCs@}As@{Ay@uAwAsBcCiDAAyEgHmBaD{F}HkBmBIGm@e@QMAK?AACCCACCEGESOUK[M[KgBSo@GKUESCWA]AUAKC_@EWCMEKIUGMKOAC[W_@WWMUGWIYKCA[MOQIQGIIY?AK_@Mc@FeAHgBHoAh@_Lb@gIHqA@Kv@eODuATiFDm@FcBBcCDeBA}AEmAE{@SkCSuBEc@Ca@MyAI{@COIy@C[E[Ee@YwBS}BIy@McAQgBSyBMeBE{@Ek@A]AY?WCw@I}BEkDOeAEkBAg@AkAA_@C[CmAIsDOgGM{FKuDMmESiGKkFO}EO{FEaBCu@C{@K_FEoB]sMGcCOyEGeCEoB?q@XwALi@AiA?gE@m@HiFJ_DFuALaCNqBTeD`A_JfBcMN_Al@qD\\qBPeA|AyKF_@Hy@RiCL_C@oB@W?{AA{AAaAEgBSgEGiAEq@?QUyGM{CK_BMqDMwCGmA?e@QyF?]MsBE}@Eq@E}@GwAAKCi@KcCOgCIoCM{DMoECmAOmC]gF?IMuBWyBCEQmBQ_EM_DM_EG_A]kISiEO{BOqEQ_FG{AgAyKi@qGs@{KMoBEUGWEEEKKMEGImDOeHAWO_ECkCAs@@_CA}CCoBImCIqDG_CDw@?Y?i@?uAB[H[H[JWV_@TSb@U^Kd@EfQaAh@EXCNAh@Ih@Ib@IpAWl@Md@Kf@Mv@Sv@UjDcAlRwGj@Oh@Ix@Ex@CDFHFHHJDHDJBLBJ@B?B?D?BAB?B?BAB?BAB?BABABABABABABCBA@ABCBA@CBABC@CBC@C@C@CBC@C@C@C@C@C@E?C@C@E?C?E@C?C?E@C?E?C?E?CAE?C?CAE?CAE?CACACAEACACACACACACACCCACCCACCAACCACCAACCCACACAAACACACACAC?CAC?_BiBIIEEo@s@yCgDuEaFo@w@U[oCeDy@qAS]i@gAe@eA[{@EMIYQk@_@iAK_@EUE[@MBIDK@GHKJINGj@OjA]jA]VEZEZCZAV?f@?\\DTDLBZHhA`@^N^HTBL@RBN@X@TAn@CTCRCZGZK`@OXOd@[HGLINGXK@?B?B?B?B?B?BAB?@CDA@CBCBC@C@C@E@E@K?EAG?CHe@FUBIf@wAXaAdAeCd@aA|@_Bl@cAf@u@\\g@j@s@h@o@l@s@V[TWJI`Aq@@?@AB?@A@A@A@A@Ab@CNCP?FA\\?^At@@JHFHFL@N@P?PCBEFADAFCJAL?j@?v@ChC?Z?hA"
+        },
+        "description": "المسار 50M",
+        "warnings": [
+          "هذا المسار مقيد الاستخدام أو به طرق خاصة."
+        ],
+        "viewport": {
+          "low": {
+            "latitude": 30.0589616,
+            "longitude": 31.323764299999997
+          },
+          "high": {
+            "latitude": 30.082681599999997,
+            "longitude": 31.4880077
+          }
+        },
+        "routeLabels": [
+          "DEFAULT_ROUTE"
+        ]
+      }
+    ]
+  }
+}
