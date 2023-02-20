@@ -70,6 +70,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   child: Container(
 
+
                     padding: const EdgeInsets.only(
                         left: AppNumbers.horizontalPadding,
                         right: AppNumbers.horizontalPadding),
