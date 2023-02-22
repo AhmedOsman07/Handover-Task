@@ -14,16 +14,18 @@ class StarRating extends StatelessWidget {
     return RatingBar.builder(
       initialRating: rating,
       minRating: 1,
-      ignoreGestures: true,
-      itemSize: 20,
+      // ignoreGestures: false,
+      itemSize: 50,
       direction: Axis.horizontal,
-      allowHalfRating: true,
+      // allowHalfRating: true,
       itemCount: 5,
       itemPadding: EdgeInsets.zero,
-      itemBuilder: (context, _) => const Icon(
+      itemBuilder: (context, c) {
+        return const Icon(
         Icons.star,
-        color: Color(0xFFF9A000),
-      ),
+        color: Colors.white,
+      );
+      },
       onRatingUpdate: (rating) {
         print(rating);
       },

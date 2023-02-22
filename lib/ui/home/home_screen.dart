@@ -70,7 +70,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ],
                 shadowColor: Colors.transparent,
-                expandedHeight: 200,
+                expandedHeight: 180,
                 backgroundColor: Theme.of(context).appBarTheme.backgroundColor,
                 flexibleSpace: FlexibleSpaceBar(
                   background: CreateTrackWidget(
@@ -91,8 +91,8 @@ class _HomeScreenState extends State<HomeScreen> {
                     decoration: const BoxDecoration(
                       color: Colors.white,
                       borderRadius: BorderRadius.only(
-                          topRight: Radius.circular(30),
-                          topLeft: Radius.circular(30.0)),
+                          topRight: Radius.circular(24.0),
+                          topLeft: Radius.circular(24.0)),
                     ),
                     child: BlocConsumer<HomeBloc, HomeState>(
                         listener: (ct, state) {
@@ -115,28 +115,21 @@ class _HomeScreenState extends State<HomeScreen> {
                           list = state.list;
                         }
                       }
-                      return RefreshIndicator(
-                          onRefresh: () async {
-                            bloc.add(FetchingList());
-                            return;
-                          },
-                          child: list == null || list!.isEmpty
-                              ? const EmptyList()
-                              : ListView.separated(
-                                  shrinkWrap: true,
-                                  padding:
-                                      const EdgeInsets.symmetric(horizontal: 8),
-                                  itemBuilder: (context, index) {
-                                    return ParcelItem(
-                                        key: ValueKey(list![index].id!),
-                                        item: list![index]);
-                                  },
-                                  itemCount: list!.length,
-                                  separatorBuilder:
-                                      (BuildContext context, int index) {
-                                    return const Divider(color: Colors.grey);
-                                  },
-                                ));
+                      return list == null || list!.isEmpty
+                          ? const EmptyList()
+                          : ListView.builder(
+                              shrinkWrap: true,
+                              physics: const NeverScrollableScrollPhysics(),
+                              padding:
+                                  const EdgeInsets.only(left: 8,right: 8,top: 16),
+                              itemBuilder: (context, index) {
+                                return ParcelItem(
+                                    key: ValueKey(list![index].id!),
+                                    item: list![index]);
+                              },
+                              itemCount: list!.length,
+
+                            );
                     }),
                   ),
                 ),

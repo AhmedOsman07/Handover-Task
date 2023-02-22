@@ -20,7 +20,10 @@ Future<void> main() async {
   Bloc.observer = MainBlocObserver();
 
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
-
+  SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
+    // systemNavigationBarColor:  AppColors.mainAppColor, // navigation bar color
+    statusBarColor: AppColors.mainAppColor, // status bar color
+  ));
   await setUpLocators();
 
   runApp(const MyApp());
