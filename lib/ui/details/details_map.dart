@@ -64,7 +64,6 @@ void onStart(ServiceInstance service) async {
   // }
 
   service.on('stopService').listen((event) {
-    print("HI stop self service");
     service.stopSelf();
   });
 
@@ -158,12 +157,10 @@ class _DetailsMapWidgetState extends State<DetailsMapWidget> {
                   initialChildSize: 0.25,
                   minChildSize: 0.25,
                   maxChildSize: 0.85,
-
                   builder: (ctx, controller) {
                     return Align(
                       alignment: Alignment.bottomCenter,
                       child: ListView(
-
                           shrinkWrap: true,
                           controller: controller,
                           children: [
@@ -173,7 +170,6 @@ class _DetailsMapWidgetState extends State<DetailsMapWidget> {
                                 Padding(
                                   padding: const EdgeInsets.only(top: 50),
                                   child: BottomSheet(
-
                                     enableDrag: false,
                                     shape: const RoundedRectangleBorder(
                                       borderRadius: BorderRadius.only(
@@ -292,11 +288,10 @@ class _DetailsMapWidgetState extends State<DetailsMapWidget> {
   }
 
   Future<void> disposeService() async {
-    // var isRunning = await service.isRunning();
-    // if (isRunning) {
-    //   print("REMOVED");
-    service.invoke("stopService");
-    // }
+    var isRunning = await service.isRunning();
+    if (isRunning) {
+      service.invoke("stopService");
+    }
   }
 
   generateEndPosition() {
