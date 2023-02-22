@@ -7,6 +7,7 @@ import 'app_colors.dart';
 class CustomTheme {
   static ThemeData get lightTheme {
     return ThemeData(
+      shadowColor: Colors.grey.withOpacity(0.7),
       appBarTheme: const AppBarTheme(
         backgroundColor: AppColors.mainAppColor,
         systemOverlayStyle: SystemUiOverlayStyle(

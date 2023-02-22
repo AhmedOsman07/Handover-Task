@@ -21,9 +21,10 @@ ParcelModel _$ParcelModelFromJson(Map<String, dynamic> json) {
 /// @nodoc
 mixin _$ParcelModel {
   String? get id => throw _privateConstructorUsedError;
+  String? get parcelID => throw _privateConstructorUsedError;
   int? get index => throw _privateConstructorUsedError;
   String? get fileName => throw _privateConstructorUsedError;
-  double? get timestamp => throw _privateConstructorUsedError;
+  int? get timestamp => throw _privateConstructorUsedError;
   String? get state => throw _privateConstructorUsedError;
 
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
@@ -40,9 +41,10 @@ abstract class $ParcelModelCopyWith<$Res> {
   @useResult
   $Res call(
       {String? id,
+      String? parcelID,
       int? index,
       String? fileName,
-      double? timestamp,
+      int? timestamp,
       String? state});
 }
 
@@ -60,6 +62,7 @@ class _$ParcelModelCopyWithImpl<$Res, $Val extends ParcelModel>
   @override
   $Res call({
     Object? id = freezed,
+    Object? parcelID = freezed,
     Object? index = freezed,
     Object? fileName = freezed,
     Object? timestamp = freezed,
@@ -69,6 +72,10 @@ class _$ParcelModelCopyWithImpl<$Res, $Val extends ParcelModel>
       id: freezed == id
           ? _value.id
           : id // ignore: cast_nullable_to_non_nullable
+              as String?,
+      parcelID: freezed == parcelID
+          ? _value.parcelID
+          : parcelID // ignore: cast_nullable_to_non_nullable
               as String?,
       index: freezed == index
           ? _value.index
@@ -81,7 +88,7 @@ class _$ParcelModelCopyWithImpl<$Res, $Val extends ParcelModel>
       timestamp: freezed == timestamp
           ? _value.timestamp
           : timestamp // ignore: cast_nullable_to_non_nullable
-              as double?,
+              as int?,
       state: freezed == state
           ? _value.state
           : state // ignore: cast_nullable_to_non_nullable
@@ -100,9 +107,10 @@ abstract class _$$_ParcelModelCopyWith<$Res>
   @useResult
   $Res call(
       {String? id,
+      String? parcelID,
       int? index,
       String? fileName,
-      double? timestamp,
+      int? timestamp,
       String? state});
 }
 
@@ -118,6 +126,7 @@ class __$$_ParcelModelCopyWithImpl<$Res>
   @override
   $Res call({
     Object? id = freezed,
+    Object? parcelID = freezed,
     Object? index = freezed,
     Object? fileName = freezed,
     Object? timestamp = freezed,
@@ -127,6 +136,10 @@ class __$$_ParcelModelCopyWithImpl<$Res>
       id: freezed == id
           ? _value.id
           : id // ignore: cast_nullable_to_non_nullable
+              as String?,
+      parcelID: freezed == parcelID
+          ? _value.parcelID
+          : parcelID // ignore: cast_nullable_to_non_nullable
               as String?,
       index: freezed == index
           ? _value.index
@@ -139,7 +152,7 @@ class __$$_ParcelModelCopyWithImpl<$Res>
       timestamp: freezed == timestamp
           ? _value.timestamp
           : timestamp // ignore: cast_nullable_to_non_nullable
-              as double?,
+              as int?,
       state: freezed == state
           ? _value.state
           : state // ignore: cast_nullable_to_non_nullable
@@ -152,7 +165,12 @@ class __$$_ParcelModelCopyWithImpl<$Res>
 @JsonSerializable()
 class _$_ParcelModel implements _ParcelModel {
   _$_ParcelModel(
-      {this.id, this.index, this.fileName, this.timestamp, this.state});
+      {this.id,
+      this.parcelID,
+      this.index,
+      this.fileName,
+      this.timestamp,
+      this.state});
 
   factory _$_ParcelModel.fromJson(Map<String, dynamic> json) =>
       _$$_ParcelModelFromJson(json);
@@ -160,17 +178,19 @@ class _$_ParcelModel implements _ParcelModel {
   @override
   final String? id;
   @override
+  final String? parcelID;
+  @override
   final int? index;
   @override
   final String? fileName;
   @override
-  final double? timestamp;
+  final int? timestamp;
   @override
   final String? state;
 
   @override
   String toString() {
-    return 'ParcelModel(id: $id, index: $index, fileName: $fileName, timestamp: $timestamp, state: $state)';
+    return 'ParcelModel(id: $id, parcelID: $parcelID, index: $index, fileName: $fileName, timestamp: $timestamp, state: $state)';
   }
 
   @override
@@ -179,6 +199,8 @@ class _$_ParcelModel implements _ParcelModel {
         (other.runtimeType == runtimeType &&
             other is _$_ParcelModel &&
             (identical(other.id, id) || other.id == id) &&
+            (identical(other.parcelID, parcelID) ||
+                other.parcelID == parcelID) &&
             (identical(other.index, index) || other.index == index) &&
             (identical(other.fileName, fileName) ||
                 other.fileName == fileName) &&
@@ -190,7 +212,7 @@ class _$_ParcelModel implements _ParcelModel {
   @JsonKey(ignore: true)
   @override
   int get hashCode =>
-      Object.hash(runtimeType, id, index, fileName, timestamp, state);
+      Object.hash(runtimeType, id, parcelID, index, fileName, timestamp, state);
 
   @JsonKey(ignore: true)
   @override
@@ -209,9 +231,10 @@ class _$_ParcelModel implements _ParcelModel {
 abstract class _ParcelModel implements ParcelModel {
   factory _ParcelModel(
       {final String? id,
+      final String? parcelID,
       final int? index,
       final String? fileName,
-      final double? timestamp,
+      final int? timestamp,
       final String? state}) = _$_ParcelModel;
 
   factory _ParcelModel.fromJson(Map<String, dynamic> json) =
@@ -220,11 +243,13 @@ abstract class _ParcelModel implements ParcelModel {
   @override
   String? get id;
   @override
+  String? get parcelID;
+  @override
   int? get index;
   @override
   String? get fileName;
   @override
-  double? get timestamp;
+  int? get timestamp;
   @override
   String? get state;
   @override

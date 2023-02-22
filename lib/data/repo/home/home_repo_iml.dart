@@ -14,12 +14,21 @@ class HomeRepoIml extends HomeRepo {
       {required int limit, required int pageNumber}) async {
     return await FirebaseRepo()
         .parcelListRef
-        // .limit(limit)
-        .endAt([pageNumber * limit])
+        // .endAt([pageNumber * limit])
         .orderBy('timestamp', descending: true)
         .get()
         .then((value) async {
           return Future.value(value.docs);
         });
+  }
+
+  @override
+  Future<ParcelModel> addTrackEvent({required ParcelModel parcelModel}) async {
+    return await FirebaseRepo()
+        .parcelListRef
+        .add(parcelModel)
+        .then((value) async {
+      return Future.value(parcelModel.copyWith(id: value.id));
+    });
   }
 }

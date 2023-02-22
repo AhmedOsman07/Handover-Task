@@ -8,14 +8,21 @@ part 'parcel_model.g.dart';
 class ParcelModel with _$ParcelModel {
   factory ParcelModel({
     String? id,
+    String? parcelID,
     int? index,
     String? fileName,
-    double? timestamp,
+    int? timestamp,
     String? state,
   }) = _ParcelModel;
 
   factory ParcelModel.fromJson(Map<String, dynamic> json) =>
       _$ParcelModelFromJson(json);
 
+  @override
+  Map<String, dynamic> toJson() {
+    final map = super.toJson();
+    map.remove("id");
+    return map;
+  }
 
 }

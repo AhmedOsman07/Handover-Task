@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import '../../shared/app_constants/app_colors.dart';
+import '../../../shared/app_constants/app_colors.dart';
 
 class EmptyList extends StatelessWidget {
   const EmptyList({super.key});

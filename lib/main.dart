@@ -1,6 +1,8 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:handover/routes/generated_routes.dart';
+import 'package:handover/service_locater/navigator_service.dart';
 import 'package:handover/service_locater/service_locater.dart';
 import 'package:handover/shared/app_constants/app_colors.dart';
 import 'package:handover/shared/app_constants/app_constant.dart';
@@ -11,11 +13,16 @@ import 'package:handover/shared/app_constants/custom_theme.dart';
 import 'package:handover/ui/home/home_screen.dart';
 
 import 'bloc/main_bloc_observer.dart';
+import 'firebase_options.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   Bloc.observer = MainBlocObserver();
+
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+
   await setUpLocators();
+
   runApp(const MyApp());
 }
 
@@ -30,6 +37,8 @@ class MyApp extends StatelessWidget {
       splitScreenMode: true,
       builder: (BuildContext context, Widget? child) {
         return MaterialApp(
+            navigatorKey: sl<NavigationService>().navigatorKey,
+
             theme: CustomTheme.lightTheme,
             debugShowCheckedModeBanner: false,
             title: AppConstants.appName,
