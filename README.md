@@ -31,3 +31,8 @@ google_fonts for styling fonts
 flutter_rating_bar for rating bar
 
 
+
+## Important note
+
+please note on ios it might crash as there's an issue with using different isolates and firebase together
+https://github.com/firebase/flutterfire/issues/6155
