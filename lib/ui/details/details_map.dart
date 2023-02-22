@@ -1,8 +1,10 @@
 import 'dart:async';
 import 'dart:convert';
 import 'dart:developer';
+import 'dart:io';
 import 'dart:ui';
 
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -11,6 +13,7 @@ import 'package:flutter_background_service_android/flutter_background_service_an
 
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
+import 'package:handover/data/model/parcel_model.dart';
 import 'package:handover/service_locater/navigator_service.dart';
 import 'package:handover/shared/app_constants/app_colors.dart';
 
@@ -40,20 +43,32 @@ void onStart(ServiceInstance service) async {
 
   DartPluginRegistrant.ensureInitialized();
 
-  FirebaseRepo().parcelListRef.doc(parcelID).snapshots().listen((event) async {
-    final List<dynamic> list = jsonMap[state]["routes"][0]["legs"][0]["steps"];
-    if (index < list.length) {
-      final step = list[event.data()!.index!]["endLocation"]["latLng"];
-
-      service.invoke(
-        'update',
-        {
-          "lat_lng": LatLng(step["latitude"], step["longitude"]),
-        },
+  if (Platform.isAndroid) {
+    FirebaseRepo()
+        .parcelListRef
+        .doc(parcelID)
+        .snapshots()
+        .listen((event) async {
+      buildTrackerFunc(jsonMap, state, index, event, service);
+    });
+  } else {
+    Timer.periodic(const Duration(seconds: 4), (timer) async {
+      FirebaseRepo().parcelListRef.doc(parcelID).get().then((event) async {
+        buildTrackerFunc(jsonMap, state, index, event, service);
+      }
       );
-    }
-  });
-
+      // FirebaseRepo()
+      //     .parcelListRef
+      // // .endAt([pageNumber * limit])
+      //     .orderBy('timestamp', descending: true)
+      //     .get()
+      //
+      //     .snapshots()
+      //     .listen((event) async {
+      //
+      // });
+    });
+  }
   service.on('stopService').listen((event) {
     service.stopSelf();
   });
@@ -77,6 +92,21 @@ void onStart(ServiceInstance service) async {
 
     await FirebaseRepo().parcelListRef.doc(parcelID).update(updateObject);
   });
+}
+
+void buildTrackerFunc(Map<String, dynamic> jsonMap, String state, int index, DocumentSnapshot<ParcelModel> event, ServiceInstance service) {
+  final List<dynamic> list =
+      jsonMap[state]["routes"][0]["legs"][0]["steps"];
+  if (index < list.length) {
+    final step = list[event.data()!.index!]["endLocation"]["latLng"];
+
+    service.invoke(
+      'update',
+      {
+        "lat_lng": LatLng(step["latitude"], step["longitude"]),
+      },
+    );
+  }
 }
 
 class DetailsMapWidget extends StatefulWidget {
@@ -223,13 +253,17 @@ class _DetailsMapWidgetState extends State<DetailsMapWidget> {
                   }),
               Positioned(
                 left: AppNumbers.horizontalPadding - 8,
-                top: AppNumbers.horizontalPadding,
-                child: GestureDetector(
-                    onTap: () async {
-                      await disposeService();
-                      sl<NavigationService>().goBack();
-                    },
-                    child: const Icon(Icons.arrow_back)),
+                top: AppNumbers.horizontalPadding /2,
+                child: SafeArea(
+                  child: GestureDetector(
+                    behavior: HitTestBehavior.translucent,
+                      onTap: () async {
+                        print("HII");
+                        await disposeService();
+                        sl<NavigationService>().goBack();
+                      },
+                      child: const Icon(Icons.arrow_back)),
+                ),
               ),
             ],
           ),
@@ -296,4 +330,3 @@ class _DetailsMapWidgetState extends State<DetailsMapWidget> {
     }
   }
 }
-

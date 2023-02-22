@@ -37,3 +37,4 @@ flutter_rating_bar for rating bar
 please note on ios it might crash as there's an issue with using different isolates and firebase together
 https://github.com/firebase/flutterfire/issues/6155
 there's a workaround added as answer but its only applied on my machine and didnt have time to fork repo to change it
+so for android platform i use streams but for ios i use peridoic timer with fetch to update cordiantes to overcome this issue
